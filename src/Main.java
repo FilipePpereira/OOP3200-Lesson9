@@ -11,9 +11,18 @@ public class Main
 {
     public static void main(String[] args)
     {
+
+        boolean pass = true;
+
+        boolean student = false;
+        boolean teacher = false;
+
+
+
+
         String name = null;
-        Scanner keyboard = new Scanner(System.in);
         out.println("Enter your name");
+        Scanner keyboard = new Scanner(System.in);
         name = keyboard.nextLine();
         out.printf("your name: %s" , name);
         keyboard.nextLine();
@@ -30,6 +39,8 @@ public class Main
         idStudent = keyboard.nextInt();
         keyboard.nextLine();
         out.printf("your name: " , idStudent);
+
+
 
     }
 }
