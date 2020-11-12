@@ -22,14 +22,14 @@ public class Main
         out.println("Enter your Age");
         age = keyboard.nextFloat();
         keyboard.nextLine();
-        out.printf("your name: %s" , age);
+        out.printf("your name: %f" , age);
         keyboard.nextLine();
 
         int idStudent = 0;
         out.println("Enter your ID the Student");
         idStudent = keyboard.nextInt();
         keyboard.nextLine();
-        out.printf("your name: %s" , idStudent);
+        out.printf("your name: " , idStudent);
 
     }
 }
