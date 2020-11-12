@@ -12,14 +12,6 @@ public class Main
     public static void main(String[] args)
     {
 
-        boolean pass = true;
-
-        boolean student = false;
-        boolean teacher = false;
-
-
-
-
         String name = null;
         out.println("Enter your name");
         Scanner keyboard = new Scanner(System.in);
